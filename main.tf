@@ -1,6 +1,7 @@
 provider "aws" {
-   region     = var.region
-   profile = "myaws"
+  region     = "ap-south-1"
+  access_key = "AKIAZ3YXIFTKIE7JQS4D"
+  secret_key = "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"
 }
 
 resource "aws_instance" "ec2" {
