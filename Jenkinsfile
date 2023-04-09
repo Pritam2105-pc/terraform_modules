@@ -6,7 +6,7 @@ pipeline{
         
         stage('git checkout'){
             steps{
-               git branch: 'main', url: 'https://github.com/vikash-kumar01/terraform_modules.git'
+               git branch: 'main', url: 'https://github.com/Pritam2105-pc/terraform_modules.git'
             }
         }
         stage('terraform init'){
